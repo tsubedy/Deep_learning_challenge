@@ -35,6 +35,7 @@ Used the same functions as in attempt -1 with additional 3rd layer of 15 neurons
 
 The results obtained as follows:
 Loss:0.5859888792037964, Accuracy: 0.7294460535049438
+
 In this model, both the loss and accuracy have slightly increased. 
 
 #### Attempt - 3
@@ -42,9 +43,11 @@ In this model, both the loss and accuracy have slightly increased.
 Changing Activation Function
 
 3 Hidden Layers
+
 80 neurons(Layer1), 30 neurons(Layer2), 15 neurons (Layer3)
 
-The activation functions are changed for 2nd and 3rd layers and obtained the following results. 
+The activation functions are changed for 2nd and 3rd layers and obtained the following results.
+
 Loss:0.5733916163444519, Accuracy: 0.7271137237548828
 
 In this model, the model scores have slightly decreased.  
@@ -60,6 +63,7 @@ Original data with redistribution of the neurons.
 The activation functions are kept as in the original data and the neurons are redistributed. 
 
 The model score obtained are as follows:
+
 Loss:0.5806168913841248, Accuracy: 0.7306122183799744
 
 Original data with redistribution of neurons gives the higher accuracy score. 
